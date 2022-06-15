@@ -1,5 +1,5 @@
 # Приложения по ресторанам
-![Icon](https://github.com/Maandraj/ChibbisApp/icon.png?raw=false "Красные рестораны")
+![Icon](https://github.com/Maandraj/ChibbisApp/blob/master/icon.png "Красные рестораны")
 
 
 ## Функции
@@ -21,7 +21,7 @@
 
 ## Изображения
 
-![Demo](https://github.com/Maandraj/ChibbisApp/demo.png?raw=false)
+![Demo](https://github.com/Maandraj/ChibbisApp/blob/master/demo.png?raw=false)
 
 
 
