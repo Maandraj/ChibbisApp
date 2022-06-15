@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/restaurantsFragment">
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.example.chibbisapp.features.restaurants.presentation.RestaurantsFragment"
+        android:label="RestaurantsFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/hitsFragment"
+        android:name="com.example.chibbisapp.features.hits.presentation.HitsFragment"
+        android:label="HitsFragment" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.example.chibbisapp.features.review.presentation.ReviewFragment"
+        android:label="ReviewFragment" >
+    </fragment>
+</navigation>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginVertical="10dp"
+    app:cardElevation="15dp"
+    tools:layout_marginHorizontal="15dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivReactionReview"
+            android:layout_width="130dp"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:alpha=".5"
+            android:rotation="15"
+            app:srcCompat="@drawable/ic_thumb_up_24"
+            android:tint="@color/color_positive"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/shapeableImageView"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="end"
+            android:alpha=".05"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"
+            android:rotation="25"
+            android:tint="@color/color_main"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:srcCompat="@drawable/ic_thumbs_up_down_24" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvDateReview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/vertical_margin_restaurant_item"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/endFrame"
+            app:layout_constraintStart_toStartOf="@+id/tvTitleReview"
+            tools:text="@tools:sample/date/mmddyy" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="start"
+            android:alpha=".1"
+            android:background="@drawable/corner_particles"
+            android:backgroundTint="@color/color_main"
+            android:rotation="180"
+            app:layout_constraintEnd_toEndOf="@+id/ivReactionReview"
+            app:layout_constraintStart_toStartOf="@+id/ivReactionReview"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="15dp"
+            android:alpha=".1"
+            android:background="@drawable/corner_particles"
+            android:backgroundTint="@color/color_main"
+            android:rotation="90"
+            app:layout_constraintEnd_toStartOf="@+id/ivReactionReview"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvTitleReview"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/view4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@tools:sample/cities" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvDescriptionReview"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginVertical="@dimen/vertical_margin_restaurant_item"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tvDateReview"
+            app:layout_constraintEnd_toStartOf="@+id/ivReactionReview"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/tvTitleReview"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleReview"
+            app:layout_constraintVertical_bias="0.6"
+            tools:text="Было вкусно на самом то деле" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

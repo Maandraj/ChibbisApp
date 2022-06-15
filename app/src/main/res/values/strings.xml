@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">ChibbisApp</string>
+    <string name="price">%d₽</string>
+    <string name="procent">%d%%</string>
+    <string name="restaurants_text">Рестораны</string>
+    <string name="hits_text">Хиты</string>
+    <string name="review_text">Отзывы</string>
+    <string name="restaurants_not_found_text">Рестораны пропали :(</string>
+    <string name="hits_not_found_text">Хиты потухли :(</string>
+    <string name="review_not_found_text">Клиентов съели :(</string>
+    <string name="error_get_hits_text">Возникла ошибка получения хитов</string>
+    <string name="error__get_restaurants_text">Возникла ошибка при получении ресторанов</string>
+    <string name="delivery_restaurant_text">Доставка</string>
+    <string name="price_hit_text">Цена:</string>
+    <string name="ingredients_text_hit_item">Ингредиенты:</string>
+    <string name="restaurant_delivery_time">Доставка\n~%d минут</string>
+    <string name="review_title_text">%s о ресторане %s</string>
+    <string name="restaurant_min_price">Мин. цена</string>
 </resources>
