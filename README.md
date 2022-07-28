@@ -1,4 +1,4 @@
-# Приложения по ресторанам
+# Приложения сеть ресторанов
 ![Icon](https://github.com/Maandraj/ChibbisApp/blob/master/icon.png "Красные рестораны")
 
 
